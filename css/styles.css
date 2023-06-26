@@ -206,13 +206,17 @@ section p {
 }
 
 /*section portifolio*/
-.imgs-port{
-  display: none !important;
+
+.imgs-port img{
+  width: 100%;
+  height: auto;
 }
 
-.img-port img{
-  width: 100%;
+
+.imgs-port a{
+  margin-bottom: 15px;
 }
+
 
 .imgs-port-mobile{
   width: 100%;
@@ -328,6 +332,14 @@ footer{
 }
 
 
+.master-port{
+  position: relative;
+  width: 100%;
+}
+
+.master-port img {
+  border-radius: 10px;
+}
 
 
 /* Config desktop*/
@@ -340,12 +352,12 @@ footer{
   .text-contact{
     width: 50%;
   }
-  
+    
   .text-contact > h1 {
     text-align: end;
     padding-right: 140px;
 
-}
+  }
 
 }
 
@@ -409,10 +421,6 @@ footer{
     gap: 80px;
   }
 
-  .master-port{
-    flex-direction: row !important;
-  }
-
 
   /*Config Contatc*/
 
@@ -437,7 +445,7 @@ footer{
 
   input {
     width: 48%;
-}
+  }
   
   .img-contact img{
     margin-left: 15px;
@@ -446,35 +454,17 @@ footer{
   /*Config about*/
 
   .img-about-mobile img {
-    width: 40%;
-}
+      width: 40%;
+  }
 
   /* Config portifolio*/
 
-  .imgs-port-mobile{
-    display: none !important;
-  }
-
   #image-port{
+    margin-left: 15px;
     margin-bottom: 15px;
   }
-  
-  .imgs-port{
-    display: flex !important;
-    justify-content: center;
-  }
-  
-  .imgs-port{
-    width: 70%;
-  }
-  
-  .imgs-port a> img{
-    width: 100%;
-  }
-  
-  .imgs-port a img{
+  #image-port a img{
     transition: 250ms linear; 
-  
   }
   
   .imgs-port a img:hover {
