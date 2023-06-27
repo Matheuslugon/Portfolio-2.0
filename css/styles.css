@@ -226,6 +226,10 @@ section p {
   border-radius: 8px;
 }
 
+#presintuperj img{
+  height: 100%;
+}
+
 
 
 /*config do contact*/
@@ -261,7 +265,8 @@ input{
 
 
 /*Button enviar*/
-.button-enviar a{
+.button-enviar button{
+  background-color: #6EA89F;
   display: block;
   width: 105px;
   height: 40px;
@@ -278,12 +283,12 @@ input{
   border-radius: 5px;
 }
 
-.button-enviar a span{
+.button-enviar button span{
   position: relative;
   z-index: 2;
 }
 
-.button-enviar a:after{
+.button-enviar button:after{
   position: absolute;
   content: "";
   top: 0;
@@ -294,11 +299,11 @@ input{
   transition: all .35s;
 }
 
-.button-enviar a:hover{
+.button-enviar button:hover{
   color: #fff;
 }
 
-.button-enviar a:hover:after{
+.button-enviar button:hover:after{
   width: 100%;
 }
 
@@ -424,7 +429,7 @@ footer{
   /*Config Contatc*/
 
   input {
-    width: 300px;
+    width: 120%;
 }
 
 }
@@ -443,7 +448,7 @@ footer{
   /* config home */
 
   input {
-    width: 48%;
+    width: 120%;
   }
   
   .img-contact img{
