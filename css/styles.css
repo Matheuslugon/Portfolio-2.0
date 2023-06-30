@@ -134,29 +134,28 @@ section p {
 
 /* Config da section home*/
 
-#home{
-  background-color: #0A1F27;
-}
 .banner-home{
-  background-image: url(../img/conteudo/matheus_eu\ 4.gif);
+  background-image: url(../img/conteudo/matheus_eu.gif);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100%;
 }
 
-.banner-home :before{
+.banner-home ::before{
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   content:'';
- /* background-color: rgba(0, 0, 0, 0.12); */
+  background-color: rgb(10, 31, 39, 0.14);
 }
 
+
 #button-home{
-  width: 95%;
+  width: 100%;
+
 }
 
 
