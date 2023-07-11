@@ -72,11 +72,6 @@ nav {
   border-radius: 10px;
 }
 
-.menu-links li a:hover {
-  background-color: var(--cor011);
-  color: var(--white);
-}
-
 section {
   min-height: 93vh;
   padding-top: 90px;
@@ -144,9 +139,15 @@ section p {
 
 #button-home{
   width: 100%;
-
 }
 
+.text-home{
+  padding: 0px 20px;
+}
+
+.text-home h1{
+  font-size: 3rem;
+}
 
 /* Config da section about*/
 
@@ -167,10 +168,22 @@ section p {
   width: 25%;
 }
 
-.img-dev .css{
+.about-son{
+  padding: 0px 15px;
+}
+
+.about-son h1{
+  font-size: 1.8rem;
   padding-bottom: 25px;
 }
 
+.about-son p {
+  font-size: 1.2rem;
+}
+
+.img-dev .css{
+  padding-bottom: 25px;
+}
 
 .button-port{
   width: 120px;
@@ -253,22 +266,39 @@ section p {
   margin-bottom: 8px;
 }
 
-input{
-  width: 70%;
+.input-color > input{
+  width: 99% !important;
   border-radius: 5px;
   margin-bottom: 12px;
-  color: #0A1F27;
+  color: #0A1F27 !important;
 }
 
+/* Formulario bravo*/
+.margin-email{
+  margin-bottom: 10px;
+  padding: 0px 0px 0px 0px !important;
+}
+.margin-email2 {
+  width: 99%;
+}
+.margin-label label{
+  margin-bottom : 2px;
+}
+
+.formulario-son{
+  background-color: #40798C !important;
+}
 
 /*Button enviar*/
 .button-enviar button{
+  display: flex !important;
+  align-items: center;
   background-color: #6EA89F;
-  display: block;
+  display: block; 
   width: 105px;
   height: 40px;
   line-height: 40px;
-  font-size: 18px;
+  font-size: 14px;
   font-family: sans-serif;
   text-decoration: none;
   color: #333;
@@ -278,6 +308,7 @@ input{
   position: relative;
   transition: all .35s;
   border-radius: 5px;
+  margin-top: 10px;
 }
 
 .button-enviar button span{
@@ -303,6 +334,7 @@ input{
 .button-enviar button:hover:after{
   width: 100%;
 }
+
 
 /*footer*/
 
@@ -344,6 +376,11 @@ footer{
 
 
 /* Config desktop*/
+
+@media screen and (min-width: 1200px){
+  
+}
+
 
 @media screen and (min-width: 1200px) {
   .img-contact img{
@@ -422,6 +459,11 @@ footer{
     gap: 80px;
   }
 
+  .list-social{
+    padding-left: 15px;
+    justify-content: flex-start !important;
+  }
+
 
   /*Config Contatc*/
 
@@ -449,6 +491,7 @@ footer{
   }
   
   .img-contact img{
+    width: 100% ;
     margin-left: 15px;
   }
 
@@ -470,7 +513,7 @@ footer{
   
   .imgs-port a img:hover {
     transform: scale(1.1);
-    box-shadow: 4px 4px 8px 0px #40798C;
+    box-shadow: 2px 2px 3px 0px #40798C;
     border-radius: 8px;
   }
 
@@ -509,13 +552,28 @@ footer{
   
 }
 
-@media (max-width: 350px) {
+@media (max-width: 400px) {
+  .img-content{
+    width: 100%;
+  }
+
+  .img-content img{
+    width: 95%;
+  }
+
   .img-port img{
     width: 95%;
   }
 
   .list-social{
     width: 85%;
+    margin-left: 15px;
   }
 
+}
+
+@media (max-width: 350px) {
+  .text-contact h1{
+    width: 90%;
+  }
 }
