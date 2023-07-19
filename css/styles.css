@@ -462,7 +462,7 @@ footer{
   }
 
   .img-about img{
-    width: 350px;
+    width: 380px;
     height: 422px;
   }
   .img-about-desktop{
@@ -602,10 +602,13 @@ footer{
 
   .img-contact img {
     width: 70%;
-}
+  }
 
-.master-contact{
+  .master-contact{
   width: 90%;
-}
+  }
+  #padding-min{
+  padding: 0px 0px 0px 50px !important;
+  }
 
 }
