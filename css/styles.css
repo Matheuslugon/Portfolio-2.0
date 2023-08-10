@@ -167,10 +167,12 @@ section p {
 /* Config da section about*/
 
 .img-about img{
+  border-radius: 195px;
   display: none;
 }
 
 .img-about-mobile img{
+  border-radius: 195px;
   width: 250px;
 }
 
@@ -463,7 +465,7 @@ footer{
 
   .img-about img{
     width: 380px;
-    height: 422px;
+    height: 380px;
   }
   .img-about-desktop{
     display: none !important;
