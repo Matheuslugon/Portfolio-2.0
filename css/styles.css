@@ -133,7 +133,8 @@ section p {
   padding: 0px 7px 0px 7px;
 }
 
-.banner{
+.banner{ 
+  background-color: #0B2027; 
   position: relative;
   width: 100%;
 }
@@ -596,6 +597,10 @@ footer{
 @media (max-width: 360px) {
   .text-contact h1{
     width: 90%;
+  }
+
+  .margin-capatcha{
+    margin-left: 15px;
   }
 
   .formulario-master{
