@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/*test waves*/
+section.ondas-box{
+  position: relative;
+  width: 100%;
+  min-height: 20vh;
+}
+
+.onda{
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  background-image: url(/img/conteudo/onda.png);
+  background-size: 1000px 100px;
+
+  animation: ondaAnimada 5s ease-in-out infinite alternate;
+}
+
+
+@keyframes ondaAnimada{
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(10px);
+    }
+}
+
+#onda1{
+  z-index: 1000;
+  opacity: 1;
+  background-position-x: 400px;
+}
+
+#onda2{
+  z-index: 999;
+  opacity: 0.4;
+  background-position-x: 300px;
+}
+
+#onda3{
+  z-index: 998;
+  opacity: 0.2;
+  background-position-x: 200px;
+}
+
+#onda4{
+  z-index: 997;
+  opacity: 0.7;
+  background-position-x: 100px;
+}
