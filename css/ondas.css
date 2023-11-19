@@ -9,7 +9,7 @@ section.ondas-box{
   height: 100px;
   position: absolute;
   bottom: 0;
-  background-image: url(/img/conteudo/onda.png);
+  background-image: url('../img/conteudo/onda.png');
   background-size: 1000px 100px;
 
   animation: ondaAnimada 5s ease-in-out infinite alternate;
