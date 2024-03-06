@@ -1,7 +1,5 @@
-window.REQUIRED_CODE_ERROR_MESSAGE = 'Escolha um código de país';
-window.LOCALE = 'pt';
-
-
+//window.REQUIRED_CODE_ERROR_MESSAGE = 'Escolha um código de país';
+//window.LOCALE = 'pt';
 
 window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "O email não é valido. Verifique o formato do campo e tente novamente.";
 
