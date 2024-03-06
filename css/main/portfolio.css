@@ -1,0 +1,46 @@
+.imgs-port img{
+    width: 100%;
+    height: auto;
+  }
+  
+  
+.imgs-port a{
+    margin-bottom: 15px;
+  }
+  
+#presintuperj img{
+  height: 100%;
+}
+
+.master-port{
+  position: relative;
+  width: 100%;
+}
+
+.master-port img {
+  border-radius: 10px;
+}
+  /*Animação para desktop*/
+@media screen and (min-width: 1000px) {
+#image-port{
+    margin-left: 15px;
+    margin-bottom: 15px;
+    }
+    #image-port a img{
+    transition: 250ms linear; 
+    }
+    
+    .imgs-port a img:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 3px 0px #40798C;
+    border-radius: 8px;
+    }
+
+} 
+
+@media (max-width: 400px) {
+  .img-port img{
+    width: 95%;
+  }
+
+}

@@ -1,0 +1,52 @@
+footer{
+    width: 100%;
+    background-color: #40798C;
+  }
+  
+  .footer-menu{
+    padding-left: 0px;
+    width: 100%;
+    height: 75px;
+  }
+  
+  .footer-menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+  }
+  
+  .footer-menu li{
+    font-size: 8px;
+  }
+  
+  
+  #list-style{
+    list-style: none;
+  }
+  
+  
+  /* Config desktop*/
+  
+  
+  
+  @media (min-width: 768px) {
+  
+    section {
+      padding-top: 90px;
+    }
+  
+    nav {
+      display: flex;
+      align-items: center;
+    }
+  
+  
+    .footer-menu li a{
+      font-size: 100%;
+    }
+  
+    .footer-menu li{
+      font-size: 100%;
+    }
+    
+  }
