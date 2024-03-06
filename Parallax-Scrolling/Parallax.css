@@ -11,7 +11,6 @@ section.ondas-box{
   bottom: 0;
   background-image: url('../img/conteudo/onda.png');
   background-size: 1000px 100px;
-
   animation: ondaAnimada 5s ease-in-out infinite alternate;
 }
 
@@ -21,7 +20,7 @@ section.ondas-box{
         transform: translateY(0px);
     }
     100%{
-        transform: translateY(10px);
+        transform: translateY(20px);
     }
 }
 

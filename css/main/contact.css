@@ -1,0 +1,176 @@
+.bd-color{
+    background-color: #40798C !important;
+  }
+  
+  .img-contact img{
+    width: 100%;
+  }
+  
+  .text-contact{
+    width: 100%;
+  }
+  
+  .text-contact > h1{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+  
+  .text-contact > p{
+    margin-bottom: 8px;
+  }
+  
+  .input-color > input{
+    width: 99% !important;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    color: #0A1F27 !important;
+  }
+  
+  /* Formulario bravo*/
+  .formulario-master{
+    width: 80%;
+  }
+  
+  .margin-email{
+    margin-bottom: 10px;
+    padding: 0px 0px 0px 0px !important;
+  }
+  .margin-email2 {
+    width: 99%;
+  }
+  .margin-label label{
+    margin-bottom : 2px;
+  }
+  
+  .formulario-son{
+    background-color: #40798C !important;
+  }
+  
+  /*Button enviar*/
+  .button-enviar button{
+    display: flex !important;
+    align-items: center;
+    background-color: #6EA89F;
+    display: block; 
+    width: 105px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .button-enviar button span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .button-enviar button:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #0A1F27;
+    transition: all .35s;
+  }
+  
+  .button-enviar button:hover{
+    color: #fff;
+  }
+  
+  .button-enviar button:hover:after{
+    width: 100%;
+  }
+
+        /*Corrigir erro no texto*/
+  @media screen and (min-width: 1200px) {
+    .img-contact img{
+      margin-left: 0px;
+    }
+  
+    .text-contact{
+      width: 50%;
+    }
+      
+    .text-contact > h1 {
+      text-align: end;
+      padding-right: 140px;
+  
+    }
+  
+  }
+  
+  
+  @media screen and (min-width: 1000px) {
+    /*Config Contatc*/
+    .input {
+      width: 120%;
+  }
+}
+
+@media (min-width: 768px) {
+    .img-contact img{
+        width: 85%;
+        margin-left: 15px;
+      }
+    
+      .master-contact{
+        display: flex!important;
+        flex-direction: row !important;
+        justify-content: center !important;
+        gap: 35px;
+      }
+    
+      .text-contact > h1 {
+        text-align: end;
+      }
+       
+}
+
+@media (min-width: 768px) {
+    .input {
+        width: 120%;
+    }
+
+    .img-contact img{
+        width: 100%;
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 360px) {
+    .text-contact h1{
+      width: 90%;
+    }
+  
+    .margin-capatcha{
+      margin-left: 15px;
+    }
+  
+    .formulario-master{
+      width: 84%;
+    }
+  
+    .img-contact img {
+      width: 70%;
+    }
+  
+    .master-contact{
+    width: 90%;
+    }
+    #padding-min{
+    padding: 0px 0px 0px 50px !important;
+    }
+  
+  }
