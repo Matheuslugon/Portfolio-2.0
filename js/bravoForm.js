@@ -17,4 +17,3 @@ common: {
 }
 };
 
-var AUTOHIDE = Boolean(0);
