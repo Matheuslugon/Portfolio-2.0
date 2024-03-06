@@ -1,5 +1,5 @@
 .banner-home{
-    background-image: linear-gradient(rgb(10, 31, 39, 0.73) ,rgb(10, 31, 39, 0.73) ), url(../img/conteudo/matheus_eu.gif);
+    background-image: linear-gradient(rgb(10, 31, 39, 0.73) ,rgb(10, 31, 39, 0.73) ), url(.../img/conteudo/matheus_eu.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
