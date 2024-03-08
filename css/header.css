@@ -132,3 +132,12 @@ section p {
   padding-top: 0px;
   min-height: 75vh;
 }
+/*correção de erro*/
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}

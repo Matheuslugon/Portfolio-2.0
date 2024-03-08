@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -60,37 +59,38 @@
         </div>
       </nav>
 
-      <!--Icon menu mobile-->
+      <!-- icon do Menu Hamburguer-->
       <button class="menu-icon d-flex align-items-center justify-content-center fs-3 d-md-none" type="button"
         data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
         aria-label="Toggle navigation">
         <i class="fa-solid fa-bars"></i>
       </button>
     </div>
-    <!--Conteudo menu mobile-->
-    <div class="offcanvas offcanvas-end bg-body menu-responsivo body-menu-mobile" tabindex="-1" id="offcanvasNavbar"
+    
+    <div class="offcanvas offcanvas-end bg-body menu-responsivo body-menu-mobile" tabindex="-1" id="offcanvasNavbar" 
       aria-labelledby="offcanvasNavbarLabel">
 
       <div class="offcanvas-header logo-mobile">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="img/logos/favicon.png"
-            alt="Matheus Lugon - Desenvolvedor Web">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+          <img src="img/logos/favicon.png" alt="Matheus Lugon - Desenvolvedor Web">
         </h5>
-
         <button type="button" class="btn-close c-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
 
       <div class="offcanvas-body">
         <ul class="menu-links menu-mobile d-flex navbar-nav c gap-4 align-items-center">
-          <li class="nav-item">
-            <a class="nav-link c-white" href="#home">INÍCIO</a>
+          <li class="nav-item" data-bs-dismiss="offcanvas" >
+            <a class="nav-link c-white" 
+            href="#home">INÍCIO</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link c-white" href="#about">SOBRE MIM</a>
+          <li class="nav-item" data-bs-dismiss="offcanvas">
+            <a class="nav-link c-white" 
+            href="#about">SOBRE MIM</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item" data-bs-dismiss="offcanvas">
             <a class="nav-link c-white" href="#trabalhos">TRABALHOS</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item" data-bs-dismiss="offcanvas">
             <a class="nav-link c-white" href="#contact">CONECTE-SE</a>
           </li>
           </li>
@@ -398,7 +398,8 @@
   </footer>
 </body>
 <!--Arquivos JavaScript-->
-<script src="js/header.js"></script>
+  <!--<script src="js/header.js"></script>
+<script src="js/test.js"></script>-->
 <script src="Parallax-Scrolling/Parallax.js"></script>
 <script src="js/bravoForm.js"></script>
 <script src="https://kit.fontawesome.com/241d540593.js" crossorigin="anonymous"></script>
