@@ -6,8 +6,8 @@ var onda4 = document.getElementById('onda4')
 window.addEventListener('scroll', function(){
     var rolagemPos = window.scrollY
 
-    onda1.style.backgroundPositionX = 400 + rolagemPos * 3 + 'px'
-    onda2.style.backgroundPositionX = 300 + rolagemPos * 3 + 'px'
-    onda3.style.backgroundPositionX = 200 + rolagemPos * 3 + 'px'
-    onda3.style.backgroundPositionX = 100 + rolagemPos * 3 + 'px'
+    onda1.style.backgroundPositionX = 400 + rolagemPos * 1 + 'px'
+    onda2.style.backgroundPositionX = 300 + rolagemPos * 2 + 'px'
+    onda3.style.backgroundPositionX = 200 + rolagemPos * 2 + 'px'
+    onda4.style.backgroundPositionX = 100 + rolagemPos * 2 + 'px'
 }) 
